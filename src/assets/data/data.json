@@ -1,0 +1,92 @@
+{
+  "profile": {
+    "userName": "nageshwara",
+    "firstName": "Nageshwar",
+    "lastName": "Adhe",
+    "email": ["nageshadhe@hotmail.com"],
+    "mobileNo": 9503972684,
+    "age": 28,
+    "dob": "19/08/1992",
+    "gender": "Male"
+  },
+  "navbar": [
+    {
+      "name": "dashboard",
+      "displayName": "Dashboard",
+      "path": "/dashboard"
+    },
+    {
+      "name": "home",
+      "displayName": "Home",
+      "path": "/home"
+    },
+    {
+      "name": "about",
+      "displayName": "About",
+      "path": "/about"
+    },
+    {
+      "name": "services",
+      "displayName": "Services",
+      "path": "/services"
+    },
+    {
+      "name": "skills",
+      "displayName": "Skills",
+      "path": "/skills"
+    },
+    {
+      "name": "experiences",
+      "displayName": "Experience",
+      "path": "/experience"
+    },
+    {
+      "name": "work",
+      "displayName": "Work",
+      "path": "/work"
+    },
+    {
+      "name": "education",
+      "displayName": "Education",
+      "path": "/education"
+    },
+    {
+      "name": "contact",
+      "displayName": "Contact",
+      "path": "/contact"
+    }
+  ],
+  "sidebarNavItems": [
+    {
+      "name": "Dashboard",
+      "label": "Dashboard",
+      "url": "/toplevel/dashboard",
+      "icon": "icon-speedometer",
+      "badge": {
+        "variant": "info",
+        "text": "NEW"
+      }
+    },
+
+    {
+      "name": "Utilities",
+      "label": "Uitilities",
+      "url": "/utilities",
+      "icon": "icon-pencil",
+      "children": [
+        {
+          "name": "cards",
+          "label": "Cards",
+          "url": "/uiUtilities/cards",
+          "icon": "icon-pencil"
+        },
+        {
+          "name": "Buttons",
+          "label": "Buttons",
+          "url": "/uiUtilities/buttons",
+          "icon": "icon-pencil"
+        }
+      ]
+    }
+  ]
+}

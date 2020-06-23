@@ -1,0 +1,146 @@
+.app-header {
+  position: relative;
+  flex-direction: row;
+  height: $navbar-height;
+  padding: 0;
+  margin: 0;
+  background-color: $navbar-bg;
+  @include borders($navbar-border);
+  .navbar-brand {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: $navbar-brand-width;
+    height: 55px;
+    padding: 0;
+    margin-right: 0;
+    background-color: transparent;
+    .navbar-brand-minimized {
+      display: none;
+    }
+  }
+  .navbar-toggler {
+    min-width: 50px;
+    padding: 0.25rem 0;
+    &:focus {
+      outline: none;
+    }
+  }
+  .navbar-toggler:not(:disabled):not(.disabled) {
+    cursor: pointer;
+  }
+  .navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.09375rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-color: transparent !important;
+    border-radius: 0.25rem;
+  }
+  .navbar-toggler {
+    min-width: 50px;
+    padding: $navbar-toggler-padding-y 0;
+
+    &:hover .navbar-toggler-icon {
+      background-image: $navbar-toggler-icon-hover;
+    }
+  }
+
+  .navbar-toggler-icon {
+    height: 23px;
+    background-image: $navbar-toggler-icon;
+  }
+  .navbar-nav {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .nav-item {
+    position: relative;
+    min-width: 50px;
+    margin: 0;
+    text-align: center;
+
+    button {
+      margin: 0 auto;
+    }
+
+    .nav-link {
+      padding-top: 0;
+      padding-bottom: 0;
+      background: 0;
+      border: 0;
+
+      .badge {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -16px;
+        margin-left: 0;
+      }
+
+      > .img-avatar {
+        height: $navbar-height - 20px;
+        margin: 0 10px;
+      }
+    }
+  }
+}
+
+.navbar-nav {
+  .nav-link {
+    color: $navbar-color;
+
+    @include hover-focus {
+      color: $navbar-hover-color;
+    }
+  }
+
+  .open > .nav-link,
+  .active > .nav-link,
+  .nav-link.open,
+  .nav-link.active {
+    @include plain-hover-focus {
+      color: $navbar-active-color;
+    }
+  }
+}
+
+.theme-setting-btn {
+  position: absolute;
+  top: 40%;
+  right: 0;
+  width: 48px;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 0;
+  margin: 0;
+  pointer-events: auto;
+  opacity: 0.9;
+  z-index: 998;
+  .icon-settings {
+    -webkit-animation: spin 3s linear infinite;
+    -moz-animation: spin 3s linear infinite;
+    animation: spin 3s linear infinite;
+  }
+}
+
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,45 @@
+.bg-primary,
+.bg-success,
+.bg-info,
+.bg-warning,
+.bg-danger,
+.bg-dark {
+  color: #fff;
+}
+
+@each $color, $value in $brands-colors {
+  @include bg-variant(".bg-#{$color}", $value);
+}
+
+@each $color, $colorObj in $color-and-contrast {
+  @each $key, $key-value in $colorObj {
+    @if ($key != "contrast") {
+      .#{$color}-#{$key}-bg {
+        background-color: $key-value !important;
+      }
+    }
+    @if ($key == "contrast") {
+      @each $contrast-key, $contrast-value in $key-value {
+        @if ($key == $contrast-key) {
+          .#{$color}-#{$key}-bg {
+            color: $contrast-value !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+@each $color, $value in $colors {
+  @include bg-variant(".bg-#{$color}", $value);
+}
+@each $color, $value in $grays {
+  @include bg-variant(".bg-gray-#{$color}", $value);
+}
+.bg-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: ($spacer * 2.5);
+  height: ($spacer * 2.5);
+}
