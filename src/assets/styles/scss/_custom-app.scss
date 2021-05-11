@@ -1,16 +1,16 @@
-// @import "variables"; // These are
-// // Utility classes
-// @import "mixin";
-// @import "node_modules/bootstrap/scss/bootstrap"; // from bootstrap node_modules
-// @import "navbar";
-// @import "aside-panel";
-// @import "sidebar";
-// @import "layout.scss";
-// @import "../simple-line-icons/simple-line-icons";
-// // Utility classes
-// @import "utilities";
+@import "variables"; // These are
+// Utility classes
+@import "mixin";
+@import "node_modules/bootstrap/scss/bootstrap"; // from bootstrap node_modules
+@import "navbar";
+@import "aside-panel";
+@import "sidebar";
+@import "layout.scss";
+@import "../simple-line-icons/simple-line-icons";
+// Utility classes
+@import "utilities";
 
-// @import "home";
-// @import "about";
-// @import "time-line";
-// @import "round-progress";
+@import "home";
+@import "about";
+@import "time-line";
+@import "round-progress";

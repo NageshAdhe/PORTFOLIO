@@ -1,3 +1,4 @@
+@import "./variables/colors";
 body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -5,11 +6,11 @@ body {
 
 // stylelint-disable declaration-no-important
 .font-xs {
-  font-size: .75rem !important;
+  font-size: 0.75rem !important;
 }
 
 .font-sm {
-  font-size: .85rem !important;
+  font-size: 0.85rem !important;
 }
 
 .font-lg {
@@ -51,5 +52,11 @@ body {
 }
 
 .text-white .text-muted {
-  color: rgba(255, 255, 255, .6) !important;
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+.txt-light-blue {
+  color: $light-blue;
+}
+.txt-black {
+  color: $black;
 }

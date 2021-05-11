@@ -1,3 +1,61 @@
+/*=======================About Style Start===================*/
 .about {
   background-color: #fff;
+}
+
+.about-section-odd {
+  background-color: $white;
+  img.about-img {
+    width: 100%;
+  }
+}
+
+.about-3 {
+  .about-img {
+    position: relative;
+    position: relative;
+    z-index: 1;
+    //width: calc(100% + 20%);
+    img {
+      max-width: 100%;
+      height: auto;
+      width: 100%;
+    }
+
+    img.ab-3-bg {
+      position: absolute;
+      left: 0;
+      z-index: -2;
+      top: 0;
+      width: auto;
+      max-width: unset;
+      height: 100%;
+    }
+  }
+  .about-3 .about-img::before {
+    position: absolute;
+    content: "";
+    background: url("../../images/about-3-befor.png");
+    width: 94%;
+    height: 200px;
+    bottom: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+  }
+  .about-img::after {
+    position: absolute;
+    content: "";
+    background: url("../../images/about-3-after.png");
+    width: 250px;
+    height: 250px;
+    right: 30px;
+    top: 53px;
+    z-index: -2;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -3;
+  }
 }
