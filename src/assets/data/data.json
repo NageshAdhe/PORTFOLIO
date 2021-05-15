@@ -8,85 +8,231 @@
     "age": 28,
     "dob": "19/08/1992",
     "gender": "Male"
+    
   },
-  "navbar": [
+  "banner":{
+    "welcomeText":"Hi!",
+    "heading":"I'm Nageshwar",
+    "subHeading":"Based in Pune city",
+    "bacgroundImg":"bg_tech-03.jpg"
+  },
+  "navbar": {
+    "className":"navbar-dark",
+    "menu":[
+      {
+        "name": "about",
+        "displayName": "About",
+        "path": "/about"
+      },
+      {
+        "name": "experience",
+        "displayName": "Experience",
+        "path": "/experience"
+      },
+      {
+        "name": "skills",
+        "displayName": "Skills",
+        "path": "/skills"
+      },
+      {
+        "name": "education",
+        "displayName": "Education",
+        "path": "/education"
+      },
+      {
+        "name": "portfolio",
+        "displayName": "Portfolio",
+        "path": "/portfolio"
+      },
+      {
+        "name": "interest",
+        "displayName": "Interest",
+        "path": "/interest"
+      },
+      {
+        "name": "contact",
+        "displayName": "Contact",
+        "path": "/contact"
+      }
+    ]
+  },
+
+  "about":{
+    "title":"",
+    "profileImg":"http://demo.ravelweb.com/material-cv/images/profile-pic.png",
+    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis et tortor ac tincidunt. In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel sollicitudin. Vestibulum venenatis pharetra mi, ut vestibulum elit ultricies a. Vestibulum at mollis ex, ac consectetur massa. Donec nunc dui, laoreet a nibh et, semper tincidunt nunc. Donec ac posuere tellus. Pellentesque tempus suscipit velit sit amet bibendum"
+  },
+  "workExperience":[
     {
-      "name": "dashboard",
-      "displayName": "Dashboard",
-      "path": "/dashboard"
+      "designation":"Sr. Software Enginer",
+      "company":"xyz",
+      "country":"India",
+      "project":"abc",
+      "startDate":"January 2012",
+      "endDate":"December 2015",
+      "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores magnam modi ab libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt ipsa."
     },
     {
-      "name": "home",
-      "displayName": "Home",
-      "path": "/home"
+      "designation":"Sr. Software Enginer",
+      "company":"xyz",
+      "country":"India",
+      "project":"abc",
+      "startDate":"January 2012",
+      "endDate":"December 2015",
+      "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores magnam modi ab libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt ipsa."
     },
     {
-      "name": "about",
-      "displayName": "About",
-      "path": "/about"
+      "designation":"Sr. Software Enginer",
+      "company":"xyz",
+      "country":"India",
+      "project":"abc",
+      "startDate":"January 2012",
+      "endDate":"December 2015",
+      "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores magnam modi ab libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt ipsa."
     },
     {
-      "name": "services",
-      "displayName": "Services",
-      "path": "/services"
+      "designation":"Sr. Software Enginer",
+      "company":"xyz",
+      "country":"India",
+      "project":"abc",
+      "startDate":"January 2012",
+      "endDate":"December 2015",
+      "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores magnam modi ab libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt ipsa."
     },
     {
-      "name": "skills",
-      "displayName": "Skills",
-      "path": "/skills"
-    },
-    {
-      "name": "experiences",
-      "displayName": "Experience",
-      "path": "/experience"
-    },
-    {
-      "name": "work",
-      "displayName": "Work",
-      "path": "/work"
-    },
-    {
-      "name": "education",
-      "displayName": "Education",
-      "path": "/education"
-    },
-    {
-      "name": "contact",
-      "displayName": "Contact",
-      "path": "/contact"
+      "designation":"Sr. Software Enginer",
+      "company":"xyz",
+      "country":"India",
+      "project":"abc",
+      "startDate":"January 2012",
+      "endDate":"December 2015",
+      "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores magnam modi ab libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt ipsa."
     }
   ],
-  "sidebarNavItems": [
+  "education":[
     {
-      "name": "Dashboard",
-      "label": "Dashboard",
-      "url": "/toplevel/dashboard",
-      "icon": "icon-speedometer",
-      "badge": {
-        "variant": "info",
-        "text": "NEW"
-      }
+      "course":"Bachelor of Engineerin (CSE)",
+      "name":"College of Engineering and Technology Akola",
+      "startDate":"July 2011",
+      "endDate":"May 2014",
+      "resultLabel":"CGPA",
+      "percentage":"6.0"
     },
-
     {
-      "name": "Utilities",
-      "label": "Uitilities",
-      "url": "/utilities",
-      "icon": "icon-pencil",
-      "children": [
-        {
-          "name": "cards",
-          "label": "Cards",
-          "url": "/uiUtilities/cards",
-          "icon": "icon-pencil"
-        },
-        {
-          "name": "Buttons",
-          "label": "Buttons",
-          "url": "/uiUtilities/buttons",
-          "icon": "icon-pencil"
-        }
-      ]
+      "course":"HSC",
+      "name":"Smt. Laxmibai Gangane Jr. College Akot",
+      "startDate":"June 2010",
+      "endDate":"May 2011",
+      "resultLabel":"Percentage",
+      "percentage":"68%"
+    },
+    {
+      "course":"SSC",
+      "name":"Shree Narsing Vidyalaya Akot",
+      "startDate":"June 2007",
+      "endDate":"April 2008",
+      "resultLabel":"Percentage",
+      "percentage":"78%"
     }
+  ],
+  "portfolio":{
+    "websites":[
+      {
+        "name":"name",
+        "img":"http://demo.ravelweb.com/material-cv/images/portfolios/p2.jpg"
+      },
+      {
+        "name":"name2",
+        "img":"http://demo.ravelweb.com/material-cv/images/portfolios/p3.jpg"
+      }
+    ],
+    "photography":[
+      {
+        "name":"name1",
+        "img":"http://demo.ravelweb.com/material-cv/images/portfolios/p2.jpg",
+        "description":"description"
+      },
+      {
+        "name":"name2",
+        "img":"http://demo.ravelweb.com/material-cv/images/portfolios/p3.jpg",
+        "description":"description"
+      },
+      {
+        "name":"name3",
+        "img":"http://demo.ravelweb.com/material-cv/images/portfolios/p3.jpg",
+        "description":"description"
+      },
+      {
+        "name":"name4",
+        "img":"http://demo.ravelweb.com/material-cv/images/portfolios/p4.jpg",
+        "description":"description"
+      }
+    ]
+  },
+ 
+  "skills":[
+    {
+      "name":"HTML5",
+      "percentage":"74",
+      "className":"Test className"
+    },
+    {
+      "name":"Javascript",
+      "percentage":"75",
+      "className":"Test className"
+    },
+    {
+      "name":"Jquery",
+      "percentage":"74",
+      "className":"Test className"
+    },
+    {
+      "name":"Angular",
+      "percentage":"74",
+      "className":"Test className"
+    },
+    {
+      "name":"NodeJs",
+      "percentage":"74",
+      "className":"Test className"
+    },
+    {
+      "name":"CSS",
+      "percentage":"74",
+      "className":"Test className"
+    }
+  ],
+    
+  
+  "interest":[
+    {
+      "name":"Films",
+      "title":"Films",
+      "icon":"",
+      "img":"http://demo.ravelweb.com/material-cv/images/portfolios/p2.jpg",
+      "description":"Description"
+    },
+    {
+      "name":"Music",
+      "title":"Music",
+      "icon":"",
+      "img":"http://demo.ravelweb.com/material-cv/images/portfolios/p3.jpg",
+      "description":"Description"
+    },
+    {
+      "name":"Photography",
+      "title":"Photography",
+      "icon":"",
+      "img":"http://demo.ravelweb.com/material-cv/images/portfolios/p4.jpg",
+      "description":"Description"
+    },
+    {
+      "name":"Foody",
+      "title":"Foody",
+      "icon":"",
+      "img":"http://demo.ravelweb.com/material-cv/images/portfolios/p5.jpg",
+      "description":"Description"
+    }
+
   ]
 }
