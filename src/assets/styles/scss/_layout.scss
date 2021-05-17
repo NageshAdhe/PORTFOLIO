@@ -26,7 +26,7 @@ nav {
   height: $navbar-height;
 }
 .navbar {
-  background: $primary;
+  background: map_get($theme-colors, 'primary');//$primary;
   box-shadow: 0px 0px 3px 1px;  
 }
 .banner{

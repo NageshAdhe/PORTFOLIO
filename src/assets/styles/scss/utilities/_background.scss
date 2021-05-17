@@ -7,9 +7,9 @@
   color: #fff;
 }
 
-@each $color, $value in $brands-colors {
-  @include bg-variant(".bg-#{$color}", $value);
-}
+// @each $color, $value in $brands-colors {
+//   @include bg-variant(".bg-#{$color}", $value);
+// }
 
 // @each $color, $colorObj in $color-and-contrast {
 //   @each $key, $key-value in $colorObj {

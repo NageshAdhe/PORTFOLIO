@@ -1,18 +1,29 @@
 
-
-
-  
-body.theme-default{
-
-    // $theme-colors: (        
-    //     "primary":yellow,
-    //     "secondary":red,
-    //     "custom-color": #900
-    // );
-
+@import "./variables/colors";
     
+$themes: (
+    'default': (
+      'primary':  map_get($theme-colors, 'primary'),
+      'secondary':  map_get($theme-colors, 'secondary')
+    ),
+    'light-blue': (
+      'primary': map_get($theme-colors, 'light-blue'),
+      'secondary': map_get($theme-colors, 'secondary'),
+    )
+  ) !default;
 
-    
-    
-    
-}
+@mixin themify($theme, $colors) {
+    // Output a theme selector
+    .theme-#{$theme} {
+      // Create the two variations of our selector
+      // e.g. `.theme .component, .theme.component`     
+      .navbar {
+        background: map_get($colors, 'primary');//$primary;map-get($colors, 'primary');       
+      }
+
+    }
+  }
+
+  @each $theme, $colors in $themes {
+    @include themify($theme, $colors);
+  }
