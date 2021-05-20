@@ -4,11 +4,53 @@
 $themes: (
     'default': (
       'primary':  map_get($theme-colors, 'primary'),
-      'secondary':  map_get($theme-colors, 'secondary')
+      'secondary':  map_get($theme-colors, 'secondary'),
+      'timeline-color':$white,
+      'time-line-header-color': map_get($theme-colors, 'light'),
+      'text-color-dark': map_get($theme-colors, 'dark'),
+
     ),
+    'red': (
+        'primary': map_get($theme-colors, 'red'),
+        'secondary': map_get($theme-colors, 'green'),
+        'timeline-color':$white,
+        'time-line-header-color': map_get($theme-colors, 'light'),
+        'text-color-dark': map_get($theme-colors, 'dark'),
+      ),
+      'pink': (
+        'primary': map_get($theme-colors, 'pink'),
+        'secondary': map_get($theme-colors, 'cyan'),
+        'timeline-color':$white,
+        'time-line-header-color': map_get($theme-colors, 'light'),
+        'text-color-dark': map_get($theme-colors, 'dark'),
+      ),
+      'indigo': (
+        'primary': map_get($theme-colors, 'indigo'),
+        'secondary': map_get($theme-colors, 'yellow'),
+        'timeline-color':$white,
+        'time-line-header-color': map_get($theme-colors, 'light'),
+        'text-color-dark': map_get($theme-colors, 'dark'),
+      ),
+    'purple': (
+        'primary': map_get($theme-colors, 'purple'),
+        'secondary': map_get($theme-colors, 'cyan'),
+        'timeline-color':$white,
+        'time-line-header-color': map_get($theme-colors, 'light'),
+        'text-color-dark': map_get($theme-colors, 'dark'),
+      ),
+      'teal': (
+        'primary': map_get($theme-colors, 'teal'),
+        'secondary': map_get($theme-colors, 'cyan'),
+        'timeline-color':$white,
+        'time-line-header-color': map_get($theme-colors, 'light'),
+        'text-color-dark': map_get($theme-colors, 'dark'),
+      ),
     'light-blue': (
       'primary': map_get($theme-colors, 'light-blue'),
       'secondary': map_get($theme-colors, 'secondary'),
+      'timeline-color':$white,
+      'time-line-header-color': map_get($theme-colors, 'light'),
+      'text-color-dark': map_get($theme-colors, 'dark'),
     )
   ) !default;
 
@@ -19,7 +61,49 @@ $themes: (
       // e.g. `.theme .component, .theme.component`     
       .navbar {
         background: map_get($colors, 'primary');//$primary;map-get($colors, 'primary');       
+        &.sticky{
+            background: map_get($colors, 'primary');
+        }
+    }
+
+      // Timeline
+      .timeline {
+        .nav-icon{
+         color:map_get($colors, 'white');
+        }         
+        &::before{
+            background: map_get($colors, 'secondary');
+        }
+        li{
+            &::before{
+                border-top-color: map_get($colors, 'primary')
+            }
+            &:nth-child(odd)::before{
+                border-top-color: map_get($colors, 'primary');
+            }
+            &:nth-child(even):before {
+                border-top-color: map_get($colors, 'primary');
+            }
+            .timeline-milestone{
+                color:map_get($colors, 'timeline-color');;
+                background-color: map_get($colors, 'secondary');
+            }
+        }
+        
+        .timeline-content{         
+            .timeline-header {
+                background-color:  map_get($colors, 'primary');
+                color: map_get($colors, 'time-line-header-color');
+            }
+        }
       }
+
+      //Portfolio
+      #portfolios{
+      .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link{
+        border-bottom:2px solid map_get($colors, 'primary');
+    }
+}
 
     }
   }

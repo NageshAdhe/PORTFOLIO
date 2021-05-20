@@ -4,7 +4,8 @@ class ResumeWorkExperience extends Component {
     super(props);
   }
   render() {
-      let expItemList = this.props.workExperienceItem.map((item,i)=>{
+      let itemLists = this.props.workExperience;
+      let expItemList = itemLists.map((item,i)=>{
 
         return(
             <li class="card timeline-card" >
@@ -31,7 +32,7 @@ class ResumeWorkExperience extends Component {
       })
     return (
       <React.Fragment>
-            <section className="section" id="experience">
+            <section className="section experience" id="experience">
                                 <h4 class="text-uppercase text-center">Experience</h4>
                                 <div class="container">
                                     <div class="row inner-conatiner">

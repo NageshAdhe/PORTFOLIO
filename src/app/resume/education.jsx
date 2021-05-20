@@ -4,7 +4,8 @@ class ResumeEducation extends Component {
     super(props);
   }
   render() {
-      let educationItems = this.props.educationItem.map((item,i)=>{
+      let itemLists = this.props.education;
+      let educationItems = itemLists.map((item,i)=>{
         return(
             <li class="card timeline-card" >
             <span className="timeline-milestone"><i className="nav-icon icon-graduation" /></span>
@@ -26,7 +27,7 @@ class ResumeEducation extends Component {
       });
     return (
       <React.Fragment>
-         <section className="section" id="education">
+         <section className="section education" id="education">
                                 <h4 class="text-uppercase text-center">education</h4>
                                 <div class="container">
                                     <div class="row inner-conatiner">

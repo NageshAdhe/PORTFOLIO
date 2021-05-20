@@ -1,0 +1,46 @@
+{
+    "data":[
+        {
+          "name":"HTML5",
+          "percentage":"74",
+          "className":"Test className",
+          "progressBarColor":"border-primary",
+          "borderBottomColor":"b-b-2-warning"
+        },
+        {
+          "name":"Javascript",
+          "percentage":"75",
+          "className":"Test className",
+          "progressBarColor":"border-success",
+          "borderBottomColor":"b-b-2-info"
+        },
+        {
+          "name":"Jquery",
+          "percentage":"74",
+          "className":"Test className",
+          "progressBarColor":"border-warning",
+          "borderBottomColor":"b-b-2-danger"
+        },
+        {
+          "name":"Angular",
+          "percentage":"74",
+          "className":"Test className",
+          "progressBarColor":"border-info",
+          "borderBottomColor":"b-b-2-success"
+        },
+        {
+          "name":"NodeJs",
+          "percentage":"74",
+          "className":"Test className",
+          "progressBarColor":"border-danger",
+          "borderBottomColor":"b-b-2-primary"
+        },
+        {
+          "name":"CSS",
+          "percentage":"74",
+          "className":"Test className",
+          "progressBarColor":"border-success",
+          "borderBottomColor":"b-b-2-info"
+        }
+      ]
+}

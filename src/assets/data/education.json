@@ -1,0 +1,30 @@
+{
+     
+  
+  "data":[
+    {
+      "course":"Bachelor of Engineerin (CSE)",
+      "name":"College of Engineering and Technology Akola",
+      "startDate":"July 2011",
+      "endDate":"May 2014",
+      "resultLabel":"CGPA",
+      "percentage":"6.0"
+    },
+    {
+      "course":"HSC",
+      "name":"Smt. Laxmibai Gangane Jr. College Akot",
+      "startDate":"June 2010",
+      "endDate":"May 2011",
+      "resultLabel":"Percentage",
+      "percentage":"68%"
+    },
+    {
+      "course":"SSC",
+      "name":"Shree Narsing Vidyalaya Akot",
+      "startDate":"June 2007",
+      "endDate":"April 2008",
+      "resultLabel":"Percentage",
+      "percentage":"78%"
+    }
+  ]
+}

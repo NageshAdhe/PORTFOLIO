@@ -1,0 +1,42 @@
+{
+    "data":[
+        {
+          "designation":"Sr. Software Enginer",
+          "company":"Cybage Software Pvt. Ltd. Pune",
+          "project":"Travel Click (Amadeus)",
+          "country":"India",      
+          "startDate":"January 2021",
+          "endDate":"till date",
+          "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores magnam modi ab libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt ipsa."
+        },
+        {
+          "designation":"Sr. Software Enginer",
+          "company":"Cybage Software Pvt. Ltd. Pune",
+          "project":"3R (Techdata)",
+          "country":"India",     
+          "startDate":"April 2019",
+          "endDate":"December 2019",
+          "description":"3R stands for remove, remediate and re-engineered. Techdata has multiple sharepoint intranet website for Europe region. In which we remediate and re-engineered websites as per client requirements. All intranet website are developed in sharepoint, html5, bootstrap and css."
+        },
+       
+        {
+          "designation":"Software Enginer",
+          "company":"Perscitus Solution Pvt. Ltd. Pune",
+          "country":"India",
+          "project":"Qopper",
+          "startDate":"October 2017",
+          "endDate":"February 2019",
+          "description":"The Qopper platform was designed specifically for tackling challenges,like compatibility, interoperability, and version inconsistencies with assets located in different- different environments, so that we can improve overall operational efficiency for the built environment operators and product performance for the technology vendors."
+        },
+        {
+          "designation":"Software Enginer",
+          "company":"Perscitus Solution Pvt. Ltd. Pune",
+          "country":"India",
+          "project":"P2P System ( Lonar Consulting Service Pvt. Ltd.[For HDFC])",
+          "startDate":"March 2017",
+          "endDate":"October 2017",
+          "description":"P2P system is purchase requisition and purchase order web portal which is basically for employees as well as vendor of employees of HDFC Bank.In P2P system UAM(User Access Management) which will be used to manage the different users in the system, Vendor Portal which will take care of all vendor related activities and all the masters which will be used in effect to Vendors and UAM in the system."
+        }
+        
+      ]
+}

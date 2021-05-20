@@ -4,15 +4,17 @@ class SkillItem extends Component {
   //   super(props);
   // }
   render() {
+    let progressBarColor = this.props.skillItem.progressBarColor;
+    let borderBottomColor = this.props.skillItem.borderBottomColor;
     return (
       <React.Fragment>
-        <div className="card card-sm rounded-0 b-b-2-blue p-2">
+        <div className={'card card-sm rounded-0  p-2 '+borderBottomColor}>
           <div className="round-progress" data-percentage={this.props.skillItem.percentage}>
             <span className="progress-left">
-              <span className="progress-bar" />
+              <span className={'progress-bar '+progressBarColor} />
             </span>
             <span className="progress-right">
-              <span className="progress-bar" />
+            <span className={'progress-bar '+progressBarColor} />
             </span>
             <div className="progress-value">
               <div>

@@ -1,0 +1,43 @@
+{
+    "data":[
+      {
+        "name":"Movies",
+        "title":"Movies",
+        "icon":"",
+        "img":"img/movies-marvel.jpg",
+        "description":"Description",
+        "popOverClassName":"bg-primary text-light",
+        "popOverHeading":"Movies"
+
+      },
+      {
+        "name":"Music",
+        "title":"Music",
+        "icon":"",
+        "img":"img/music-1.jpg",
+        "description":"Description",
+        "popOverClassName":"bg-primary text-light",
+        "popOverHeading":"Music"
+      },
+      {
+        "name":"Photography",
+        "title":"Photography",
+        "icon":"",
+        "img":"img/photography-2.jpg",
+        "description":"Description",
+        "popOverClassName":"bg-primary text-light",
+        "popOverHeading":"Photography"
+      },
+      {
+        "name":"Foody",
+        "title":"Foody",
+        "icon":"",
+        "img":"img/foody-3.jpg",
+        "description":"Description",
+        "popOverClassName":"bg-primary text-light",
+        "popOverHeading":"Foody"
+      }
+  
+    ]
+  }
+  

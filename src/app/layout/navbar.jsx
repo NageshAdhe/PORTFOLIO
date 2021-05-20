@@ -17,13 +17,27 @@ class Navbar extends Component {
     document.body.classList.toggle("sidebar-show");
     console.log(document.body.classList);
   }
-
+  componentDidMount(){
+    window.addEventListener('scroll', () => {
+      let activeClass = ''; 
+      var navbar = document.getElementsByClassName("navbar");
+        var sticky = navbar[0].offsetTop;
+        if (window.pageYOffset > sticky) {
+           // navbar[0].classList.add("sticky");
+            activeClass = 'sticky';
+          } else {
+            activeClass = '';
+           // navbar[0].classList.remove("sticky");
+          }
+          this.setState({ activeClass });
+    });
+}
   render() {   
-    console.log("Navar Items=================>",this.props.navbarItems);
+   
 
     return (
       <React.Fragment>
-        <nav className={'navbar navbar-expand fixed-top '+this.props.navData.className}>
+        <nav className={'navbar navbar-nav navbar-expand fixed-top style-1 animated '+this.props.navData.className + ' '+this.state.activeClass}>
        
           <button
             type="button"

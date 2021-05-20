@@ -1,0 +1,43 @@
+{
+    "data": {
+        "className":"navbar-dark ",
+        "menu":[
+          {
+            "name": "about",
+            "displayName": "About",
+            "path": "#about"
+          },
+          {
+            "name": "experience",
+            "displayName": "Experience",
+            "path": "#experience"
+          },
+          {
+            "name": "skills",
+            "displayName": "Skills",
+            "path": "#skills"
+          },
+          
+          {
+            "name": "portfolio",
+            "displayName": "Portfolio",
+            "path": "/portfolio"
+          },
+          {
+            "name": "education",
+            "displayName": "Education",
+            "path": "/education"
+          },
+          {
+            "name": "interest",
+            "displayName": "Interest",
+            "path": "/interest"
+          },
+          {
+            "name": "contact",
+            "displayName": "Contact",
+            "path": "/contact"
+          }
+        ]
+      }
+}

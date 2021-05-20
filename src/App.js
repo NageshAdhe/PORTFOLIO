@@ -3,11 +3,12 @@ import ResumeLayout from "./app/resume/resumeLayout";
 import "./App.scss";
 
 function App() {
+
+
+
   return (
     
-    <React.Fragment>
-      
-     
+    <React.Fragment> 
       <ResumeLayout />
     </React.Fragment>
   );

@@ -66,8 +66,8 @@ $colors: map-merge(
   $colors
 );
 
-$primary: $blue !default;
-$secondary: $gray-300 !default;
+$primary: $cyan !default;
+$secondary: $green !default;
 $success: $green !default;
 $info: $light-blue !default;
 $warning: $yellow !default;
@@ -89,7 +89,13 @@ $theme-colors: map-merge(
     "dark": $dark,
     "teal": $teal,
     "purple": $purple,
-    "light-blue": $info
+    "light-blue": $info,
+    "red":$danger,
+    "green":$green,
+    "cyan":$cyan,
+    "pink":$pink,
+    "indigo":$indigo,
+    "yellow":$yellow
   ),
   $theme-colors
 );

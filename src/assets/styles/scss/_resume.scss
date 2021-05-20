@@ -1,28 +1,31 @@
 @import "variables/colors";
-.section{
-    padding: 30px;
-}
-
-#about #profile{
-    animation-delay: 500ms;
-    animation-duration: 1000ms;
-    position: absolute;
-    width: 180px;
-    height: 180px;
-    top: -97px;
-    left: 50%;
-    margin-left: -90px;
-    z-index: 1;
-    display: block;
-    border-radius: 50%;
-    background-color: $white;
-    padding: 5px; 
-    img {
-        width: 170px;
-        height: 170px;
-        border-radius: 50%;
+.main{
+    &.section:last-child{
+        margin-bottom: 24px;
     }
 }
+.about{
+    .profile-img-container{
+        animation-delay: 500ms;
+        animation-duration: 1000ms;
+        position: absolute;
+        width: 180px;
+        height: 180px;
+        top: -97px;
+        left: 50%;
+        margin-left: -90px;
+        z-index: 1;
+        display: block;
+        border-radius: 50%;
+        background-color: $white;
+        padding: 5px; 
+        img {
+            width: 170px;
+            height: 170px;
+            border-radius: 50%;
+        }
+    }
+} 
 
 .timeline {
     margin-top: 15px;
@@ -40,7 +43,7 @@
         position: absolute;
         height: 90%;
         width: 2px;
-        background: $primary;
+        background: $secondary;
         left: 0px;
     }
    li {
@@ -72,7 +75,7 @@
             }
         }
         &:nth-child(odd)::before{
-            border-top: 2em solid $secondary;
+            border-top: 2em solid $primary;
             border-right: 2em solid transparent;
             right: -2em;
             left: auto;
@@ -90,7 +93,7 @@
             }
         }
         &:nth-child(even):before {
-            border-top: 2em solid $secondary;
+            border-top: 2em solid $primary;
             border-left: 2em solid transparent;
             position: absolute;
             left: -2em;
@@ -105,7 +108,8 @@
             border-radius: 50%;
             text-align: center;           
             line-height: 30px;
-            background-color: $primary;
+            background-color: $secondary;
+            color:map-get($theme-colors,'light')
         }
     }
 
@@ -115,8 +119,9 @@
             width: 100%;
             height: auto;
             padding: 1rem;
-            background-color: $secondary;
+            background-color: $primary;
             display: block;
+            color:map-get($theme-colors,'light')
            
         }
         .timeline-body {
@@ -125,7 +130,7 @@
        
     }
 }
-#portfolios{
+.portfolio{
     nav{
         height: unset;
     }
@@ -156,6 +161,12 @@
         transition: all 0.5s ease-out 0ms;
         pointer-events: auto;
 
+     }
+     .project-tech-pill{
+         padding: 4px;
+     }
+     .project-title{
+         font-weight: 500;
      }
 }
 .card-img {
@@ -199,6 +210,59 @@
         li{
             display: inline-block;
         }
+    }
+    .card-img {
+        img{
+            height: 142px;
+        }
+    }
+}
+.information{
+    
+    .contact-text-label{
+       
+        font-size: 18px;
+        line-height: 1.2;
+        font-weight: 500;
+        color:$white;
+        text-align:center;
+    }
+    .contact-text-value{
+        
+        font-size: 16px;
+        line-height: 1.6;
+        text-align:center;
+       &.gray{
+        color:#999
+       }
+       &.green{
+           color:#00ad5f;
+       }
+    }
+}
+.background-opac-01{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+
+  
+}
+.background-opac-01::before{
+    content: '';
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,.4);
+}
+.social-icon-container{
+    li{
+
     }
 }
 

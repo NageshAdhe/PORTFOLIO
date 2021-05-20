@@ -5,10 +5,10 @@ class ResumeSkills extends Component {
     super(props);
   }
   render() {
-      let skillsArr = this.props.interestItems;
-      const interestItems = skillsArr.map((item, i) => { 
+      let skillsArr = this.props.skills;
+      const skillsItems = skillsArr.map((item, i) => { 
         return(
-            <div className="col-2 ">
+            <div className="col-12 col-md-4 col-lg-3 col-sm-12 mb-3">
             <SkillItem skillItem={item} />
         </div>
         );
@@ -17,12 +17,11 @@ class ResumeSkills extends Component {
     return (
       <React.Fragment>
          
-         <section className="section" id="skills" >
+         <section className="section skills" id="skills" >
                                 <h4 class="text-uppercase text-center">Skills</h4>
                                 <div class="container">
                                     <div class="row inner-conatiner">
-                                    {interestItems}
-                                   
+                                    {skillsItems}                                  
 
                                          </div>
                                 </div>

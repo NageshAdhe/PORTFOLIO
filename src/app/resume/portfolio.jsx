@@ -7,43 +7,59 @@ class ResumePortfolio extends Component {
   }
   render() {
 
-    // let tablist = Object.keys(this.props.portfoliotItem).map((item,i)=>{
-    //     let isActiveTab = i==0?'active':'';
-    //     return(
-    //         <Tab class="tab " eventKey={item} title={item} >
+    
+    let tablistDetails = Object.keys(this.props.portfolio).map((item,i)=>{   
 
-
-    //             {
-                    
-    //             }
-    //         </Tab>
-    //     );
-    // });
-    let tablistDetails = Object.keys(this.props.portfoliotItem).map((item,i)=>{
-      
-        let isActiveTab = i==0?'active':'';
-        
-        let tablistDetailsItems = this.props.portfoliotItem[item].map((pItem, j) => { 
-            return(
+        let tablistDetailsItems = this.props.portfolio[item].map((pItem, j) => { 
+            if(item == "projects" ){
+                let tablistDetailsItems = '';
+                if( pItem.technnologies!=undefined){
+                    tablistDetailsItems = pItem.technnologies.map((projectItem, p) => { 
+                        return(    
+                             <span className={'project-tech-pill badge badge-pill badge-'+projectItem.class + '  px-3 ml-2'}>{projectItem.name}</span>
+                             )
+                    });
+                }
                
-                <div className="col col-md-3 col-sm-6 col-xs-12 portfolio-item">
-                <div class="card-img card">
-                    <figure class="hover-effect">
 
-                        <img class="img-responsive" src={pItem.img} alt="" />
-
-
-                    </figure>
-
-
+                return(               
+                    <div className="col-12 col-md-6 col-sm-6 col-xs-12 col-lg-4 portfolio-item mb-3">
+                    <div className={'card rounded-0 '+pItem.BorderClass}>
+                      <div className="card-body">
+                      <div><span>Project Name </span> : <span className={'project-title text-'+pItem.titleClass}>{pItem.name}</span></div>
+                      <div><span>Technologies </span> : {tablistDetailsItems}</div>
+                      </div>
+                    </div>
                 </div>
-            </div>
-            );
+                );
+            }else{
+                return(               
+                    <div className="col-12 col-md-3 col-sm-6 col-xs-12 portfolio-item mb-3">
+                    <div class="card-img card">
+                        <figure class="hover-effect">
+                            <img class="img-responsive" src={pItem.img} alt="" />
+                        </figure>
+                    </div>
+                </div>
+                );
+            }
+
+           
 
         });
+        let seeMoreForGallery =  ( <div className="row justify-content-end" >
+        <div className="col-6">
+            <a href="gallery" className="float-right mb-2">See more</a>
+        </div>
+    </div>)
+               
+        
+       // seeMoreForGallery = item == 'photography' ? seeMoreForGallery:null;
         return(
-            <Tab  eventKey={item} title={item} tabClassName="row">
+            <Tab  eventKey={item} title={item} tabClassName="row">                
+                {item == 'photography' ? seeMoreForGallery:null}
                 <div className="row">
+              
                 {tablistDetailsItems}
                 </div>
               
@@ -53,23 +69,18 @@ class ResumePortfolio extends Component {
   
     return (
       <React.Fragment>
-        <section className="section" id="portfolios">
+        <section className="section portfolio" id="portfolio">
                                 <h4 class="text-uppercase text-center">portfolio</h4>
                                 <div class="container">
 
                                     <div class="row inner-conatiner">
                                         <div class="col-12">
-                                            <Tabs defaultActiveKey="websites" id="uncontrolled-tab-example" >
+                                            <Tabs defaultActiveKey="projects" id="uncontrolled-tab-example" >
                                             {tablistDetails}
 
                                             </Tabs>
                                           
-                                            {/* <ul class="tabs text-center" id="portfolioTab">
-                                               
-                                               {tablist}
-
-                                            </ul>
-                                            {tablistDetails}                                             */}
+                                           
                                         </div>
 
 

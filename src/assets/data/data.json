@@ -1,5 +1,29 @@
 {
   "profile": {
+
+    "information":{
+      "name":"Nageshwar Adhe",
+      "email":"nageshadhe@hotmail.com",
+      "address":"Pune,Maharashtra,India"
+    },
+    "socialMedia":[
+      {
+        "name":"facebook",
+        "url":"https://www.facebook.com/nagesh.adhe"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/nageshwar-adhe-822569a3"
+      },
+      {
+        "name":"instagram",
+        "url":"http://instagram.com/nageshadhe"
+      },
+      {
+        "name":"skype",
+        "url":"live:adhe.nagesh"
+      }
+  ],
     "userName": "nageshwara",
     "firstName": "Nageshwar",
     "lastName": "Adhe",
@@ -12,227 +36,15 @@
   },
   "banner":{
     "welcomeText":"Hi!",
-    "heading":"I'm Nageshwar",
+    "heading":"I'm Nagesh",
     "subHeading":"Based in Pune city",
-    "bacgroundImg":"bg_tech-03.jpg"
-  },
-  "navbar": {
-    "className":"navbar-dark",
-    "menu":[
-      {
-        "name": "about",
-        "displayName": "About",
-        "path": "/about"
-      },
-      {
-        "name": "experience",
-        "displayName": "Experience",
-        "path": "/experience"
-      },
-      {
-        "name": "skills",
-        "displayName": "Skills",
-        "path": "/skills"
-      },
-      {
-        "name": "education",
-        "displayName": "Education",
-        "path": "/education"
-      },
-      {
-        "name": "portfolio",
-        "displayName": "Portfolio",
-        "path": "/portfolio"
-      },
-      {
-        "name": "interest",
-        "displayName": "Interest",
-        "path": "/interest"
-      },
-      {
-        "name": "contact",
-        "displayName": "Contact",
-        "path": "/contact"
-      }
-    ]
-  },
+    "bacgroundImg":"bg_tech-04.jpg"
+  }
 
-  "about":{
-    "title":"",
-    "profileImg":"http://demo.ravelweb.com/material-cv/images/profile-pic.png",
-    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis et tortor ac tincidunt. In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel sollicitudin. Vestibulum venenatis pharetra mi, ut vestibulum elit ultricies a. Vestibulum at mollis ex, ac consectetur massa. Donec nunc dui, laoreet a nibh et, semper tincidunt nunc. Donec ac posuere tellus. Pellentesque tempus suscipit velit sit amet bibendum"
-  },
-  "workExperience":[
-    {
-      "designation":"Sr. Software Enginer",
-      "company":"xyz",
-      "country":"India",
-      "project":"abc",
-      "startDate":"January 2012",
-      "endDate":"December 2015",
-      "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores magnam modi ab libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt ipsa."
-    },
-    {
-      "designation":"Sr. Software Enginer",
-      "company":"xyz",
-      "country":"India",
-      "project":"abc",
-      "startDate":"January 2012",
-      "endDate":"December 2015",
-      "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores magnam modi ab libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt ipsa."
-    },
-    {
-      "designation":"Sr. Software Enginer",
-      "company":"xyz",
-      "country":"India",
-      "project":"abc",
-      "startDate":"January 2012",
-      "endDate":"December 2015",
-      "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores magnam modi ab libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt ipsa."
-    },
-    {
-      "designation":"Sr. Software Enginer",
-      "company":"xyz",
-      "country":"India",
-      "project":"abc",
-      "startDate":"January 2012",
-      "endDate":"December 2015",
-      "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores magnam modi ab libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt ipsa."
-    },
-    {
-      "designation":"Sr. Software Enginer",
-      "company":"xyz",
-      "country":"India",
-      "project":"abc",
-      "startDate":"January 2012",
-      "endDate":"December 2015",
-      "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores magnam modi ab libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt ipsa."
-    }
-  ],
-  "education":[
-    {
-      "course":"Bachelor of Engineerin (CSE)",
-      "name":"College of Engineering and Technology Akola",
-      "startDate":"July 2011",
-      "endDate":"May 2014",
-      "resultLabel":"CGPA",
-      "percentage":"6.0"
-    },
-    {
-      "course":"HSC",
-      "name":"Smt. Laxmibai Gangane Jr. College Akot",
-      "startDate":"June 2010",
-      "endDate":"May 2011",
-      "resultLabel":"Percentage",
-      "percentage":"68%"
-    },
-    {
-      "course":"SSC",
-      "name":"Shree Narsing Vidyalaya Akot",
-      "startDate":"June 2007",
-      "endDate":"April 2008",
-      "resultLabel":"Percentage",
-      "percentage":"78%"
-    }
-  ],
-  "portfolio":{
-    "websites":[
-      {
-        "name":"name",
-        "img":"http://demo.ravelweb.com/material-cv/images/portfolios/p2.jpg"
-      },
-      {
-        "name":"name2",
-        "img":"http://demo.ravelweb.com/material-cv/images/portfolios/p3.jpg"
-      }
-    ],
-    "photography":[
-      {
-        "name":"name1",
-        "img":"http://demo.ravelweb.com/material-cv/images/portfolios/p2.jpg",
-        "description":"description"
-      },
-      {
-        "name":"name2",
-        "img":"http://demo.ravelweb.com/material-cv/images/portfolios/p3.jpg",
-        "description":"description"
-      },
-      {
-        "name":"name3",
-        "img":"http://demo.ravelweb.com/material-cv/images/portfolios/p3.jpg",
-        "description":"description"
-      },
-      {
-        "name":"name4",
-        "img":"http://demo.ravelweb.com/material-cv/images/portfolios/p4.jpg",
-        "description":"description"
-      }
-    ]
-  },
+
+
+  
  
-  "skills":[
-    {
-      "name":"HTML5",
-      "percentage":"74",
-      "className":"Test className"
-    },
-    {
-      "name":"Javascript",
-      "percentage":"75",
-      "className":"Test className"
-    },
-    {
-      "name":"Jquery",
-      "percentage":"74",
-      "className":"Test className"
-    },
-    {
-      "name":"Angular",
-      "percentage":"74",
-      "className":"Test className"
-    },
-    {
-      "name":"NodeJs",
-      "percentage":"74",
-      "className":"Test className"
-    },
-    {
-      "name":"CSS",
-      "percentage":"74",
-      "className":"Test className"
-    }
-  ],
     
   
-  "interest":[
-    {
-      "name":"Films",
-      "title":"Films",
-      "icon":"",
-      "img":"http://demo.ravelweb.com/material-cv/images/portfolios/p2.jpg",
-      "description":"Description"
-    },
-    {
-      "name":"Music",
-      "title":"Music",
-      "icon":"",
-      "img":"http://demo.ravelweb.com/material-cv/images/portfolios/p3.jpg",
-      "description":"Description"
-    },
-    {
-      "name":"Photography",
-      "title":"Photography",
-      "icon":"",
-      "img":"http://demo.ravelweb.com/material-cv/images/portfolios/p4.jpg",
-      "description":"Description"
-    },
-    {
-      "name":"Foody",
-      "title":"Foody",
-      "icon":"",
-      "img":"http://demo.ravelweb.com/material-cv/images/portfolios/p5.jpg",
-      "description":"Description"
-    }
-
-  ]
 }

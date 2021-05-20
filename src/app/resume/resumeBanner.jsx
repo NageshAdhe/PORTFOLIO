@@ -12,9 +12,9 @@ class ResumeBanner extends Component {
     }
     return (
       <React.Fragment>
-            <div className="row banner" >
+            <div className="row banner-content" >
                         <div
-                            className=" col-12 home-top"  style={divStyle}                           
+                            className=" col-12 home-top"                             
                         >
                             <div className="inner-txt m-5">
                                 <h1 className="text-light slider-txt animated animatedFadeInUp fadeInUp">

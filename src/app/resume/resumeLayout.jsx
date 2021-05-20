@@ -1,45 +1,60 @@
 import React, { Component } from "react";
-
-
-import ResumeAbout from "./about";
-import ResumeWorkExperience from "./workExperience";
-import ResumeSkills from "./skills";
-import ResumeEducation from "./education";
-import ResumePortfolio from "./portfolio";
-import ResumeInterest from "./interest";
-import ResumeHeader from "./header";
-// import ThemeColors from "../../themeColor";
-
-
-
-import data from "../../assets/data/data.json";
-
 import {
     BrowserRouter as Router,
     Route,
-    //  NavLink,
     Switch
-} from "react-router-dom";
+  } from "react-router-dom";
 
+// Components
+import Resume from "./resume";
+import ResumeHeader from "./header";
+import Gallery from "./gallery";
+import NotFound from "../layout/notFound";
+
+
+
+// getting json Data from Files
+import data from "../../assets/data/data.json";
+import navbar from "../../assets/data/navbar.json";
+import portfolio from "../../assets/data/portfolio.json";
+
+
+
+
+export const routes = [
+    {
+      path: "/",
+      component: Resume,
+      exact: true
+    },
+    {
+      path: "/gallery",
+      component: Gallery
+    },
+    {
+        path: "*",
+        component: NotFound
+      }
+]
 
 
 class ResumeLayout extends Component {
     constructor(props) {
         super(props);
         // this.toggle = this.toggle.bind(this);
-        this.state = {};
+        this.state = {
+            bannerData:data.banner
+        };
     }
 
     componentDidMount() {
-        var el = document.getElementById("portfolioTab");
-        const options = {
-        }
-        
+       //
     }
 
     render() {
-        let interestItemsArr = data.interest;
+        let navbarData = navbar.data;
         let skillsItemsArr = data.skills;
+        let portfolioData = portfolio.data;
         return (
             <React.Fragment>
                 <Router>
@@ -47,13 +62,17 @@ class ResumeLayout extends Component {
                     <div className="app-body">
 
                         <main className="main">
-                            <ResumeHeader navbar={data.navbar} bannerData={data.banner} />
-                            <ResumeAbout aboutItem={data.about} />
-                            <ResumeWorkExperience workExperienceItem={data.workExperience} />
-                            <ResumeSkills interestItems={data.skills} />
-                            <ResumeEducation educationItem={data.education} />
-                            <ResumePortfolio portfoliotItem={data.portfolio} />
-                            <ResumeInterest interestItems={interestItemsArr}  />
+                            <ResumeHeader navbar={navbarData} bannerData={data.banner} />
+                            <Switch>
+                            {routes.map((route, index) => (
+                            <Route
+                                key={index}
+                                path={route.path}
+                                component={route.component}
+                                exact={route.exact}
+                            />
+                            ))}
+              </Switch>
 
                         </main>
 
