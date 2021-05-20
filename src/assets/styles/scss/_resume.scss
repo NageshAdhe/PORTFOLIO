@@ -1,8 +1,6 @@
 @import "variables/colors";
-.main{
-    &.section:last-child{
-        margin-bottom: 24px;
-    }
+section:last-child{
+        margin-bottom: 24px;    
 }
 .about{
     .profile-img-container{
@@ -217,7 +215,7 @@
         }
     }
 }
-.information{
+.contact{
     
     .contact-text-label{
        
@@ -266,6 +264,14 @@
     }
 }
 
+@media screen and (min-width: 320px){
+
+.banner-content{
+        .inner-txt{
+            margin: 4.5rem 2rem;
+        }
+    }
+}
 @media screen and (min-width: 768px){
     .timeline ul {
         padding-left: 0;
@@ -279,5 +285,10 @@
     .timeline:before {
         left: 50%;
     } 
+    .banner-content{
+        .inner-txt{
+            margin: 3rem;
+        }
+    }
 }
 

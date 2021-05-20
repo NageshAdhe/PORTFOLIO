@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import Nav from 'react-bootstrap/Nav'
 class NavListItem extends Component {
   constructor(props) {
     super(props);
@@ -16,14 +17,14 @@ class NavListItem extends Component {
   render() {    
     return (
       <React.Fragment>
-        <li
+        <Nav.Link
           className={"px-3 nav-item " + this.props.activeClass}
           onClick={this.props.onClick}
         >
-          <Link to={this.props.path} className="nav-link">
+          <a href={this.props.path} className="nav-link">
             {this.props.displayName}
-          </Link>
-        </li>
+          </a>
+        </Nav.Link>
       </React.Fragment>
     );
   }

@@ -1,8 +1,9 @@
 import React, { Component } from "react";
+import Navbar from 'react-bootstrap/Navbar'
 import data from "../../assets/data/data.json";
 import NavList from "./navList";
 import { Link } from "react-router-dom";
-class Navbar extends Component {
+class AppNavbar extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -37,22 +38,25 @@ class Navbar extends Component {
 
     return (
       <React.Fragment>
-        <nav className={'navbar navbar-nav navbar-expand fixed-top style-1 animated '+this.props.navData.className + ' '+this.state.activeClass}>
-       
-          <button
+        
+        <Navbar collapseOnSelect expand="lg"  className={'navbar  navbar-dark navbar-expand-md fixed-top style-1 animated '+this.props.navData.className + ' '+this.state.activeClass}>
+
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          {/* <button
             type="button"
             className="d-lg-none navbar-toggler"
             data-sidebar-toggler="true"
             onClick={this.toggleSidenavSm}
           >
             <span className="navbar-toggler-icon" />
-          </button>
-         
-          <NavList navItems={this.props.navData.menu} />
-        </nav>
+          </button> */}
+         <Navbar.Collapse id="responsive-navbar-nav">
+            <NavList navItems={this.props.navData.menu} />
+          </Navbar.Collapse>
+        </Navbar >
       </React.Fragment>
     );
   }
 }
-export default Navbar;
+export default AppNavbar;
 //

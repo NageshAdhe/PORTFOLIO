@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Navbar from "../layout/navbar";
+import AppNavbar from "../layout/navbar";
 import ResumeBanner from "../resume/resumeBanner";
 class ResumeHeader extends Component {
     constructor(props) {
@@ -23,7 +23,7 @@ class ResumeHeader extends Component {
             <React.Fragment>
                 <section className="header position-relative" id="header" >
                         <div className=" head-bg banner" style={divStyle}>
-                        <Navbar navData={this.props.navbar}  />
+                        <AppNavbar navData={this.props.navbar}  />
                    
                         <ResumeBanner bannerObj={this.props.bannerData} />
 </div>

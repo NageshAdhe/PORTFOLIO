@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-class Informaiton extends Component {
+class Contact extends Component {
   constructor(props) {
     super(props);
   }
@@ -32,7 +32,7 @@ class Informaiton extends Component {
       });
     return (
       <React.Fragment>
-        <section className="section information " id="information" >
+        <section className="section contact " id="contact" >
         <h4 class="text-uppercase text-center">Information</h4>
           <div className="container">
               <div className="row inner-conatiner">
@@ -100,4 +100,4 @@ class Informaiton extends Component {
     );
   }
 }
-export default Informaiton;
+export default Contact;

@@ -16,7 +16,7 @@ class ResumeBanner extends Component {
                         <div
                             className=" col-12 home-top"                             
                         >
-                            <div className="inner-txt m-5">
+                            <div className="inner-txt ">
                                 <h1 className="text-light slider-txt animated animatedFadeInUp fadeInUp">
                                     {this.props.bannerObj.welcomeText} <br />
                                     {this.props.bannerObj.heading}

@@ -31,41 +31,9 @@ nav {
   flex-wrap: wrap;
   margin-bottom: 0;
   list-style: none;
-  height: $navbar-height;
+ 
 }
-.navbar {
-  background: map_get($theme-colors, 'primary');//$primary;
-  box-shadow: 0px 0px 3px 1px;
-  
-  &.style-1{
-    background-color: transparent;
-    box-shadow: none;
-    position: relative;
 
-    .nav-link{
-    font-weight: 500;
-    }
-  }
-
-  &.animated {
-    opacity: 1;
-    visibility: visible;
-    -webkit-transform: translate(0, 0);
-    -moz-transform: translate(0, 0);
-    transform: translate(0, 0)
-  }
-  &.sticky{
-    top: 0;
-    left: 0;
-    width: 100%;
-    position: fixed;
-    padding-top: 0;
-    padding-bottom: 0;
-    box-shadow: 0 10px 30px ;
-    background: map_get($theme-colors, 'primary');
-  }
-    
-}
 .banner{
   // margin-top: $navbar-height;
   height: $banner-height;
@@ -74,7 +42,10 @@ nav {
   margin-top: 16px;
 }
 
-
+.navbar {
+  background: map_get($theme-colors, 'primary');//$primary;
+  box-shadow: 0px 0px 1px 1px;
+}
 
 
 .b-b-2-primary {
@@ -92,4 +63,45 @@ nav {
 }
 .b-b-2-info {
   border-bottom: 2px solid $info   !important;
+}
+
+
+@media screen and (min-width: 768px){
+  .nav{
+    height: $navbar-height;
+  }
+  .navbar {
+    background: map_get($theme-colors, 'primary');//$primary;
+    box-shadow: 0px 0px 1px 1px;
+    
+    &.style-1{
+      background-color: transparent;
+      box-shadow: none;
+      position: relative;
+  
+      .nav-link{
+      font-weight: 500;
+      }
+      &.animated {
+        opacity: 1;
+        visibility: visible;
+        -webkit-transform: translate(0, 0);
+        -moz-transform: translate(0, 0);
+        transform: translate(0, 0)
+      }
+      &.sticky{
+        top: 0;
+        left: 0;
+        width: 100%;
+        position: fixed;
+        padding-top: 0;
+        padding-bottom: 0;
+        box-shadow: 0 10px 30px ;
+        background: map_get($theme-colors, 'primary');
+      }
+    }
+  
+    
+      
+  }
 }

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Nav from 'react-bootstrap/Nav';
 import NavListItem from "./navListItem";
 class NavList extends Component {
   constructor(props) {
@@ -26,7 +27,7 @@ class NavList extends Component {
         />       
       );
     });
-    return <ul className="navbar-nav flex-row ml-md-auto d-none d-md-flex">{navItems}</ul>;
+    return <Nav navbarScroll  className="navbar-nav ml-md-auto  ">{navItems}</Nav>;
   }
 }
 export default NavList;

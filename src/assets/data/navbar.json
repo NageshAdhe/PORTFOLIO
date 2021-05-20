@@ -21,22 +21,22 @@
           {
             "name": "portfolio",
             "displayName": "Portfolio",
-            "path": "/portfolio"
+            "path": "#portfolio"
           },
           {
             "name": "education",
             "displayName": "Education",
-            "path": "/education"
+            "path": "#education"
           },
           {
             "name": "interest",
             "displayName": "Interest",
-            "path": "/interest"
+            "path": "#interest"
           },
           {
             "name": "contact",
             "displayName": "Contact",
-            "path": "/contact"
+            "path": "#contact"
           }
         ]
       }

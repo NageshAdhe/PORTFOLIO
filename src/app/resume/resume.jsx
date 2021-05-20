@@ -6,7 +6,7 @@ import ResumeSkills from "./skills";
 import ResumeEducation from "./education";
 import ResumePortfolio from "./portfolio";
 import ResumeInterest from "./interest";
-import Informaiton from "./information";
+import Contact from "./contact";
 
 // Get data From Json Files
 import data from "../../assets/data/data.json";
@@ -38,7 +38,7 @@ class Resume extends Component {
                     <ResumePortfolio portfolio={portfolio.data} />
                     <ResumeEducation education={education.data} />
                     <ResumeInterest interests={interests.data}  />
-                    <Informaiton profile={data.profile}/>
+                    <Contact profile={data.profile}/>
             </React.Fragment>
         );
     }
