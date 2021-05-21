@@ -35,7 +35,7 @@ class Contact extends Component {
         <section className="section contact " id="contact" >
         <h4 class="text-uppercase text-center">Information</h4>
           <div className="container">
-              <div className="row inner-conatiner">
+              <div className="row inner-container">
                   <div className="col-12 card p-md-4 rounded-0 background-opac-01" style={divStyle}> 
                   <div className="card-body">
                     <div className="row justify-content-center">

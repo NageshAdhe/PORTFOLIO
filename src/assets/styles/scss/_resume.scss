@@ -1,4 +1,5 @@
 @import "variables/colors";
+$gallery-img-height:230px;
 section:last-child{
         margin-bottom: 24px;    
 }
@@ -258,21 +259,55 @@ section:last-child{
     left: 0;
     background: rgba(0,0,0,.4);
 }
-.social-icon-container{
-    li{
-
+.gallery{
+    .gallery-img{
+        max-height: $gallery-img-height;
     }
 }
 
 @media screen and (min-width: 320px){
-
-.banner-content{
-        .inner-txt{
-            margin: 4.5rem 2rem;
+    .banner-content{
+            .inner-txt{
+                margin: 4.5rem 2rem;
+            }
+        }
+        .timeline::before{
+            height: 75%;
+            left: 5.8%;
+            // top: 4%;
+        }
+        .timeline li{
+            left: 0px;
+            width: 85%;
+        }
+        
+        .timeline li:nth-child(odd) {
+            float: right;
+            // margin-top: 70px;
+        }
+        .timeline li:nth-child(odd)::before{
+            border-top: 2em solid map-get($theme-colors,'primary');
+            border-left: 2em solid transparent;
+            position: absolute;
+            left: -2em;
+            top: 0;
+        }
+        .timeline li:nth-child(odd) .timeline-milestone {
+            position: absolute;
+            left: -19.40%;
+            top: -5%;
         }
     }
-}
 @media screen and (min-width: 768px){
+
+    .timeline::before{
+        height: 90%;
+        width: 2px;
+        background: $secondary;
+        left: 50%;
+        top:0%;
+    }
+    
     .timeline ul {
         padding-left: 0;
         width: 100%;
@@ -282,9 +317,31 @@ section:last-child{
         left: 0;
         width: 43%;
     }
-    .timeline:before {
-        left: 50%;
-    } 
+    
+    .timeline li:nth-child(odd) {
+        float: left;
+        margin-top: auto;
+    }
+    .timeline li:nth-child(odd)::before{
+        // border-top: 2em solid #17a2b8;
+        // border-left: 2em solid transparent;
+        // position: absolute;
+        // left: -2em;
+        // top: 0;
+
+        border-top: 2em solid $primary;
+        border-right: 2em solid transparent;
+        right: -2em;
+        left: auto;
+    }
+    .timeline li:nth-child(odd) .timeline-milestone {
+        // position: absolute;
+        // left: -19.40%;
+        // top: -5%;
+        left: 113.5%;
+        top: -5%;
+        
+    }
     .banner-content{
         .inner-txt{
             margin: 3rem;

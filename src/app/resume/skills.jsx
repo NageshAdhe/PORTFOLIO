@@ -20,7 +20,7 @@ class ResumeSkills extends Component {
          <section className="section skills" id="skills" >
                                 <h4 class="text-uppercase text-center">Skills</h4>
                                 <div class="container">
-                                    <div class="row inner-conatiner">
+                                    <div class="row inner-container">
                                     {skillsItems}                                  
 
                                          </div>
