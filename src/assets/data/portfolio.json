@@ -164,26 +164,26 @@
           {
             "name":"name1",
             "class":"b-b-2-warning",
-            "img":"https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(73).jpg",
-            "description":"description"
+            "img":"/gallery/evening-sky.jpg",
+            "description":"Evening sky"
           },
           {
             "name":"name2",
             "class":"b-b-2-danger",
-            "img":"https://mdbootstrap.com/img/Photos/Vertical/mountain1.jpg",
-            "description":"description"
+            "img":"/gallery/kolphapur-rankala-mornig-01.jpg",
+            "description":"Kolhapur morning at Rankala"
           },
           {
             "name":"name3",
             "class":"b-b-2-danger",
-            "img":"https://mdbootstrap.com/img/Photos/Vertical/mountain2.jpg",
-            "description":"description"
+            "img":"/gallery/evening-sky-blue-shade.jpg",
+            "description":"Summer evening sky blue shade"
           },
           {
             "name":"name4",
             "class":"b-b-2-danger",
-            "img":"https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(73).jpg",
-            "description":"description"
+            "img":"/gallery/kolphapur-rankala-mornig-02.jpg",
+            "description":"Kolhapur morning at Rankala"
           }
         ]
       }

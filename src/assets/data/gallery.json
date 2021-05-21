@@ -7,13 +7,8 @@
        },
        {
         "name":"",
-        "src":"/gallery/flower-sm-yellow.jpg",
-        "description":"Small yellow flower "
-       },
-       {
-        "name":"",
-        "src":"/gallery/kolhapur-palace.jpg",
-        "description":"Chhatrapati Rajarshi Shahu Maharaj's Palace at Kolhapur"
+        "src":"/gallery/kolphapur-rankala-mornig-01.jpg",
+        "description":"Kolhapur morning at Rankala"
        },
        {
         "name":"",
@@ -21,16 +16,9 @@
         "description":"Summer evening sky blue shade"
        },
        
-       {
-        "name":"",
-        "src":"/gallery/vintage-tractor.jpg",
-        "description":"Vintage Tractor"
-       },
-    {
-        "name":"",
-        "src":"/gallery/kolphapur-rankala-mornig-01.jpg",
-        "description":"Kolhapur morning at Rankala"
-       },
+      
+      
+  
     {
         "name":"",
         "src":"/gallery/kolphapur-rankala-mornig-02.jpg",
@@ -40,6 +28,24 @@
         "name":"",
         "src":"/gallery/kolphapur-rankala-mornig-03.jpg",
         "description":"Kolhapur morning at Rankala"
+       },
+        
+     
+       {
+        "name":"",
+        "src":"/gallery/flower-sm-yellow.jpg",
+        "description":"Small yellow flower "
+       },
+       {
+        "name":"",
+        "src":"/gallery/vintage-tractor.jpg",
+        "description":"Vintage Tractor"
+       },
+       
+       {
+        "name":"",
+        "src":"/gallery/kolhapur-palace.jpg",
+        "description":"Chhatrapati Rajarshi Shahu Maharaj's Palace at Kolhapur"
        }
     ]
 }
