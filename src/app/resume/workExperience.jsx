@@ -35,7 +35,7 @@ class ResumeWorkExperience extends Component {
             <section className="section experience" id="experience">
                                 <h4 class="text-uppercase text-center">Experience</h4>
                                 <div class="container">
-                                    <div class="row inner-conatiner">
+                                    <div class="row inner-container">
                                         <div class="col col-md-12 col-sm-12 col-xs-12">
                                             <div class="timeline center-block">
                                                 <ul>

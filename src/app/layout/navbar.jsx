@@ -3,6 +3,7 @@ import Navbar from 'react-bootstrap/Navbar'
 import data from "../../assets/data/data.json";
 import NavList from "./navList";
 import { Link } from "react-router-dom";
+
 class AppNavbar extends Component {
   constructor(props) {
     super(props);

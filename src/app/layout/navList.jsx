@@ -20,6 +20,7 @@ class NavList extends Component {
           key={i}
           index={i}
           displayName={item.displayName}
+          name={item.name}
           title={item.displayName}
           activeClass={activeClass}
           path={item.path}

@@ -1,5 +1,5 @@
 
-
+$section-padding:30px 0px 0px 0px;
 .app {
   display: flex;
   flex-direction: column;
@@ -33,15 +33,18 @@ nav {
   list-style: none;
  
 }
-
+.section{
+  padding:$section-padding;
+}
 .banner{
-  // margin-top: $navbar-height;
   height: $banner-height;
 }
-.inner-conatiner{
-  margin-top: 16px;
-}
 
+.experience,.skills,.portfolio,.education,.interest,.contact {
+  .container{
+    padding:$section-padding;
+  }
+}
 .navbar {
   background: map_get($theme-colors, 'primary');//$primary;
   box-shadow: 0px 0px 1px 1px;

@@ -2,27 +2,44 @@
     "data":[
        {
         "name":"",
-        "imgSrc":"https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(73).jpg"
+        "src":"/gallery/evening-sky.jpg",
+        "description":"Evening sky"
        },
        {
         "name":"",
-        "imgSrc":"https://mdbootstrap.com/img/Photos/Vertical/mountain1.jpg"
+        "src":"/gallery/flower-sm-yellow.jpg",
+        "description":"Small yellow flower "
        },
        {
         "name":"",
-        "imgSrc":"https://mdbootstrap.com/img/Photos/Vertical/mountain2.jpg"
+        "src":"/gallery/kolhapur-palace.jpg",
+        "description":"Chhatrapati Rajarshi Shahu Maharaj's Palace at Kolhapur"
        },
        {
         "name":"",
-        "imgSrc":"https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(73).jpg"
+        "src":"/gallery/evening-sky-blue-shade.jpg",
+        "description":"Summer evening sky blue shade"
        },
+       
        {
         "name":"",
-        "imgSrc":"https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg"
+        "src":"/gallery/vintage-tractor.jpg",
+        "description":"Vintage Tractor"
        },
-       {
+    {
         "name":"",
-        "imgSrc":"https://mdbootstrap.com/img/Photos/Vertical/mountain3.jpg"
+        "src":"/gallery/kolphapur-rankala-mornig-01.jpg",
+        "description":"Kolhapur morning at Rankala"
+       },
+    {
+        "name":"",
+        "src":"/gallery/kolphapur-rankala-mornig-02.jpg",
+        "description":"Kolhapur morning at Rankala"
+       },
+    {
+        "name":"",
+        "src":"/gallery/kolphapur-rankala-mornig-03.jpg",
+        "description":"Kolhapur morning at Rankala"
        }
     ]
 }

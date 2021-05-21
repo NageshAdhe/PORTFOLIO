@@ -37,7 +37,7 @@ class ResumeInterest extends Component {
            <section className="section interest" id="interest">
                                 <h4 className="text-uppercase text-center">Interest</h4>
                                 <div className="container">
-                                    <div className="row inner-conatiner">
+                                    <div className="row inner-container">
                                    {interestItems}
                                 </div>
                                 </div>

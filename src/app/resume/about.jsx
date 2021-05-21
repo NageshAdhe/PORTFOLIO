@@ -8,7 +8,7 @@ class ResumeAbout extends Component {
       <React.Fragment>
         <section className="section about" id="about">
           <div className="container">
-            <div className="row inner-conatiner">
+            <div className="row inner-container">
               <div className="col col-md-12">
                 <div id="profile" class="center-block  profile-img-container">
                   <img src={'img/'+this.props.about.profileImg} />

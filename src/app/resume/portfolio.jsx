@@ -49,7 +49,13 @@ class ResumePortfolio extends Component {
         });
         let seeMoreForGallery =  ( <div className="row justify-content-end" >
         <div className="col-6">
-            <a href="gallery" className="float-right mb-2">See more</a>
+            <a href="/gallery" className="float-right mb-2">See more</a>
+
+            {/* <Link  className="nav-link" to={{
+              pathname: "/",   
+            }}>
+            {this.props.displayName}
+          </Link> */}
         </div>
     </div>)
                
@@ -73,7 +79,7 @@ class ResumePortfolio extends Component {
                                 <h4 class="text-uppercase text-center">portfolio</h4>
                                 <div class="container">
 
-                                    <div class="row inner-conatiner">
+                                    <div class="row inner-container">
                                         <div class="col-12">
                                             <Tabs defaultActiveKey="projects" id="uncontrolled-tab-example" >
                                             {tablistDetails}
