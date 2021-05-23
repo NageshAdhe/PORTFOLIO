@@ -11,7 +11,7 @@ class ResumeAbout extends Component {
             <div className="row inner-container">
               <div className="col col-md-12">
                 <div id="profile" class="center-block  profile-img-container">
-                  <img src={'img/'+this.props.about.profileImg} />
+                  <img src={this.props.about.profileImg} />
                 </div>
                 <div id="intro-div" class="card content-wrapper   p-3 pt-2 mt-0">
 

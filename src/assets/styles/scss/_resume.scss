@@ -1,5 +1,6 @@
 @import "variables/colors";
 $gallery-img-height:230px;
+$gallery-img-min-height:200px;
 $portfolio-img-height:170px;
 section:last-child{
         margin-bottom: 24px;    
@@ -263,6 +264,7 @@ section:last-child{
 .gallery{
     .gallery-img{
         max-height: $gallery-img-height;
+        min-height: $gallery-img-min-height;
     }
 }
 
