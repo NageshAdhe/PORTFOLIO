@@ -17,8 +17,8 @@ class ResumeAbout extends Component {
 
                   <div className="about-text-div pt-5">
 
-                    <p class="text-center  pt-4">
-                      {this.props.about.description}
+                    <p class="text-center  pt-4" dangerouslySetInnerHTML={{ __html:this.props.about.description}}>
+                    
                     </p>
                   </div>
 
