@@ -5,7 +5,7 @@
         "title":"Movies",
         "icon":"",
         "img":"img/movies-marvel.jpg",
-        "description":"Watching movie is my best way to spend my leisure time. It can refresh my mind. I am huge fan of <strong>Marvel Cinematic</strong>. Ironman,Thor and Captain America are my favourites. I like to watch Action,Fictional,Sci-Fi and Comedy movies. Apart from movies I loves Web series also Like GOT,Big Bang Theory,Friends,Money Heist,Family Man,Sacred Games and so on. ",
+        "description":"Watching movie is my best way to spend my leisure time.  I am huge fan of  &#128525; <strong>Marvel Cinematic</strong>. Ironman,Thor and Captain America are my favourites. I like to watch Action,Fictional,Sci-Fi and Comedy movies. Apart from movies I loves Web series also Like GOT,Big Bang Theory,Friends,Money Heist,Family Man,Sacred Games and so on. &#128540;",
         "popOverClassName":"bg-primary text-light",
         "popOverHeading":"Movies"
 
@@ -15,7 +15,7 @@
         "title":"Music",
         "icon":"",
         "img":"img/music-1.jpg",
-        "description":"I love to listen Bollywood songs of A.R. Rahman,Mohit Chauhan,Arijit Sing,Jubin Nautiyal, Neha kakkar, Shreya Ghoshal. Sometime I listen Old song of Kishor Kumar and other songs also.",
+        "description":"I love &#128525; to listen <strong>Bollywood songs</strong> of A.R. Rahman,Mohit Chauhan,Arijit Sing,Jubin Nautiyal, Neha kakkar, Shreya Ghoshal. Sometime I listen Old song of Kishor Kumar and other songs also.",
         "popOverClassName":"bg-primary text-light",
         "popOverHeading":"Music"
       },
@@ -24,7 +24,7 @@
         "title":"Photography",
         "icon":"",
         "img":"img/photography-2.jpg",
-        "description":"I always Like to capture the nature like Sunrise, Sunset, Sky Shades, Birds and moments with friends and family sometimes I do trekking with friend near pune and click some photos",
+        "description":"I always Love  &#128525; to capture photos of nature like Sunrise, Sunset, Sky Shades, Birds and moments with friends and family sometimes I do trekking with friend near Pune and click some photos",
         "popOverClassName":"bg-primary text-light",
         "popOverHeading":"Photography"
       },
@@ -33,7 +33,7 @@
         "title":"Foody",
         "icon":"",
         "img":"img/foody-3.jpg",
-        "description":"I like Wadapav, extremly love love with chicken food. Sometimes I cook chicken food, not a good chef but friends says they like chicken cooked by me &#128540;. Love dishes like Puran Poli,Kande-baji,Msala Dosa,Panipuri,Jalebi,and so on.",
+        "description":"I like Wadapav, extremly love  &#128525; with chicken food. Sometimes I cook chicken curry, not a good chef but friends says they like food cooked by me &#128540;. Love  &#128525; dishes like Puran Poli,Kande-baji,Msala Dosa,Panipuri,Jalebi,and so on.&#128540;",
         "popOverClassName":"bg-primary text-light",
         "popOverHeading":"Foody"
       }

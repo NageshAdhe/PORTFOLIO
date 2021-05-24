@@ -14,13 +14,13 @@ class ResumeWorkExperience extends Component {
 
 
                 <div class="timeline-header">
-                    <h5 class="text-capitalize m-0">{item.designation}</h5>
+                    <h6 class="text-capitalize m-0">{item.designation}</h6>
                 </div>
                 <div class="timeline-body">
                 <h6 class="">{item.company} - {item.country}</h6>
                 <div className="row">
                 <div className="col-12 mb-2">
-                <span class="h6 text-success">{item.project}</span>
+                <span class="h6 text-purple">{item.project}</span>
                 <span class="float-right text-muted">{item.startDate} - {item.endDate}</span>
                 </div>
                 </div>
