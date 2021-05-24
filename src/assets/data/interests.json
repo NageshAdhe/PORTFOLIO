@@ -5,7 +5,7 @@
         "title":"Movies",
         "icon":"",
         "img":"img/movies-marvel.jpg",
-        "description":"Description",
+        "description":"Watching movie is my best way to spend my leisure time. It can refresh my mind. I am huge fan of <strong>Marvel Cinematic</strong>. Ironman,Thor and Captain America are my favourites. I like to watch Action,Fictional,Sci-Fi and Comedy movies. Apart from movies I loves Web series also Like GOT,Big Bang Theory,Friends,Money Heist,Family Man,Sacred Games and so on. ",
         "popOverClassName":"bg-primary text-light",
         "popOverHeading":"Movies"
 
@@ -15,7 +15,7 @@
         "title":"Music",
         "icon":"",
         "img":"img/music-1.jpg",
-        "description":"Description",
+        "description":"I love to listen Bollywood songs of A.R. Rahman,Mohit Chauhan,Arijit Sing,Jubin Nautiyal, Neha kakkar, Shreya Ghoshal. Sometime I listen Old song of Kishor Kumar and other songs also.",
         "popOverClassName":"bg-primary text-light",
         "popOverHeading":"Music"
       },
@@ -24,7 +24,7 @@
         "title":"Photography",
         "icon":"",
         "img":"img/photography-2.jpg",
-        "description":"Description",
+        "description":"I always Like to capture the nature like Sunrise, Sunset, Sky Shades, Birds and moments with friends and family sometimes I do trekking with friend near pune and click some photos",
         "popOverClassName":"bg-primary text-light",
         "popOverHeading":"Photography"
       },
@@ -33,7 +33,7 @@
         "title":"Foody",
         "icon":"",
         "img":"img/foody-3.jpg",
-        "description":"Description",
+        "description":"I like Wadapav, extremly love love with chicken food. Sometimes I cook chicken food, not a good chef but friends says they like chicken cooked by me &#128540;. Love dishes like Puran Poli,Kande-baji,Msala Dosa,Panipuri,Jalebi,and so on.",
         "popOverClassName":"bg-primary text-light",
         "popOverHeading":"Foody"
       }

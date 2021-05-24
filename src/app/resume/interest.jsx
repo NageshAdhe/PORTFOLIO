@@ -12,8 +12,9 @@ class ResumeInterest extends Component {
       const popover = (
         <Popover id="popover-basic">
           <Popover.Title as="h3" className={item.popOverClassName}>{item.popOverHeading}</Popover.Title>
-          <Popover.Content>
-          {item.description}
+          <Popover.Content  dangerouslySetInnerHTML={{ __html: item.description }}>
+          {/* {item.description} */}
+         
           </Popover.Content>
         </Popover>
       );
