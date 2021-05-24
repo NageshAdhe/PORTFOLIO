@@ -1,5 +1,6 @@
 {
   "profile": {
+    "title":"Nagesh Adhe",
 
     "information":{
       "name":"Nageshwar Adhe",
@@ -23,15 +24,7 @@
         "name":"skype",
         "url":"live:adhe.nagesh"
       }
-  ],
-    "userName": "nageshwara",
-    "firstName": "Nageshwar",
-    "lastName": "Adhe",
-    "email": ["nageshadhe@hotmail.com"],
-    "mobileNo": 9503972684,
-    "age": 28,
-    "dob": "19/08/1992",
-    "gender": "Male"
+  ]
     
   },
   "banner":{

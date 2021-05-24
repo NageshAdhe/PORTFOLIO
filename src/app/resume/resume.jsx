@@ -26,6 +26,7 @@ class Resume extends Component {
     }
 
     componentDidMount() {
+         document.title = data['profile']['title']
         //      
     }
 
